@@ -1,0 +1,12 @@
+<resources>
+    <!-- CONFIG -->
+    <string name="app_name">autoentusiastas</string>
+
+    <!-- BUTTONS -->
+    <string name="btnNext">AVANÇAR</string>
+    <string name="btnBack">VOLTAR</string>
+    <string name="btnFinish">FINALIZAR</string>
+    <string name="btnOut">SAIR</string>
+    <string name="btnClose">FECHAR</string>
+
+</resources>

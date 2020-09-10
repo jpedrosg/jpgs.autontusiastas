@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenu"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/btnForm"
+        android:layout_toStartOf="@+id/btnProfile"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/btnSite"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnForm"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toStartOf="@+id/btnSite"
+        android:background="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnSite"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@color/colorWhite" />
+
+
+
+
+
+</RelativeLayout>
